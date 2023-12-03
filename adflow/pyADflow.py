@@ -3390,7 +3390,7 @@ class ADFLOW(AeroSolver):
                 # we have custom pointsets
                 # first figure out if we want to update the pointset; check each family we are tracking
                 for family in self.customPointSetFamilies.keys():
-                    # return immediately if we are flagged for a surfafce update
+                    # return immediately if we are flagged for a surface update
                     if updateSurface:
                         break
 
